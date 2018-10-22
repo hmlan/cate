@@ -76,7 +76,7 @@ if __name__=="__main__":
     # print("已发送邮件")
     # smtp.quit()
     newfile=find_newreport('report/')
-    sleep(5)
+    sleep(3)
     send_mail("report/2018-10-10 17-22-23result.html")
     print(type(newfile))
     print(type("D:\\a.txt"))
